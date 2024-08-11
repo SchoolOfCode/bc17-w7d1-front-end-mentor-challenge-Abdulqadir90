@@ -1,8 +1,9 @@
 body {
-background-color: blanchedalmond;
+background-color: #F4E9E3;
 display: flex;
 justify-content: center;
 padding: 50px;
+font-family: ;
 
 }
 
@@ -10,8 +11,40 @@ padding: 50px;
     display: flex;
     flex-direction: row;
     background-color: white;
+    border-radius: 20px;
 }
 
 .image{
-    width: 250px
+    width: 325px;
+    border-radius: 20px;
+    
+}
+
+.cart{
+    cursor: pointer;
+    background-color: #8cb4a4;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    
+  
+    
+}
+
+.cost{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.price-1{
+    font-size: 50px;
+    margin: 10px;
+    color: #8cb4a4;
+}
+
+.price-2{
+    font-size: 15px;
+
 }
